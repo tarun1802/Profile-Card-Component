@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Profile card component</title>
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Kumbh+Sans">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      background-color: hsl(185, 75%, 39%);
+      margin: 0;
+      font-size: 18px;
+      font-family:"Kumbh Sans";
+      font-weight:400, 700;
+      overflow: hidden;
+    }
+    .inside{
+      width:273px;
+      border-radius: 10px 10px 0 0;
+      position: relative;
+      
+    }
+    .container{
+      background-color: white;
+      display: block;
+      margin-top: 200px;
+      margin-left: 550px;
+      margin-right: auto;
+      width: 20%;
+      height:350px;
+      border: 1px solid;
+      border-radius: 10px;
+      position: absolute;
+      
+    }
+    .top{
+      width: 50%;
+      height: 40%;
+      margin-bottom: 150px;
+      margin-right: 100px;
+      
+      
+    }
+    .bottom{
+      width:500px;
+      height:500px;
+      margin-top: 300px;
+      position: absolute;
+      
+    }
+    .victor{
+      border:5px solid white;
+      border-radius: 50%;
+      position:relative;
+      margin-left: 90px;
+      margin-right: 90px;
+      margin-top: -50px;
+    }
+    #vic{
+      text-align: center;
+      color:hsl(229, 23%, 23%);
+    }
+    span{
+      color: hsl(227, 10%, 46%);
+      font-size: 14px;
+    }
+    #london{
+      text-align: center;
+      color: hsl(227, 10%, 46%);
+    }
+    #one{
+      margin-left: 20px;
+      display:inline-block;
+      color:hsl(229, 23%, 23%);
+    }
+    #two{
+      display:inline-block;
+      padding-left: 40px;
+      color:hsl(229, 23%, 23%);
+
+    }
+    #three{
+      display:inline-block;
+      padding-left: 50px;
+      color:hsl(229, 23%, 23%);
+    }
+    hr{
+      color: hsl(227, 10%, 46%);
+      border-top: 1px;
+    }
+    
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <img class="inside" src="images/bg-pattern-card.svg" alt="img">
+    <img class="victor" src="images/image-victor.jpg" alt="victorimg">
+    <p id="vic">Victor Crest <span> 26</span></p>
+    <p id="london">London</p>
+    <hr>
+    <footer>
+      <div id="one"><p>80K<br>
+        <span>Followers</span></p></div>
+      <div id="two"> <p>803K<br>
+        <span>Likes</span></p></div>
+      <div id="three"><p>1.4K<br>
+        <span>Photos</span></p></div>
+    </footer>
+    
+  </div>
+  <img class="top" src="images/bg-pattern-top.svg" alt="top" >
+  <img class="bottom" src="images/bg-pattern-bottom.svg" alt="top" width="50%" height="50%">
+  
+  
+</body>
+</html>
